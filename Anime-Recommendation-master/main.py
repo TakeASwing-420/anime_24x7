@@ -23,7 +23,7 @@ client = MongoClient(
 db = client['mydatabase']
 users_collection = db['users']
 
-anime = pd.read_csv("anime.csv")
+anime = pd.read_csv("Anime-Recommendation-master/anime.csv")
 anime.loc[(anime["genre"]=="Hentai") & (anime["episodes"]=="Unknown"),"episodes"] = "1"
 anime.loc[(anime["type"]=="OVA") & (anime["episodes"]=="Unknown"),"episodes"] = "1"
 anime.loc[(anime["type"] == "Movie") & (anime["episodes"] == "Unknown"),"episodes"] = "1"
