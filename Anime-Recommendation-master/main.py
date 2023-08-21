@@ -15,7 +15,7 @@ password = os.environ.get("MONGODB_PWD")
 
 if not password:
     raise ValueError("MONGODB_PWD environment variable is not set!")
-print("MongoDB Password:", password)
+
 app = Flask(__name__)
 
 mongo_uri = f"mongodb+srv://root:{password}@deepcluster.xcqiz7a.mongodb.net/?retryWrites=true&w=majority"
