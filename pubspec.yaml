@@ -1,0 +1,39 @@
+name: flutter_mongo
+description: Your wishlist for those anime you wanna watch.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.0.0
+  http: any
+  url_launcher: ^6.1.10
+  sqflite: ^2.2.8+4
+  sqflite_common_ffi: any
+  sqlite3_flutter_libs: ^0.4.2
+  flame_audio: ^1.0.0
+  audioplayers: ^3.0.1
+  path: ^1.8.2
+  flutter_chat_ui: ^1.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/Fasthand-Regular.ttf
+  assets:
+    - assets/images/639813.jpg
+    - assets/images/peakpx (1).jpg
+    - assets/images/peakpx (2).jpg
+    - assets/images/peakpx.jpg
+    - assets/images/wp1937304-your-name-wallpapers.png
+    - assets/images/peakpx (3).jpg
+    - assets/audio/shelter.mp3    
