@@ -16,5 +16,6 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-"Author: Deep Mondal/e-mail: dm7041979@gmail.com"
+"Author: Deep Mondal/e-mail: dm7041979@gmail.com"<br/>
+This ML model is taken from : https://github.com/Mohitkumar6122/Anime-Recommendation.git <br/>
 BGM-Shelter(Porter Robinson)
